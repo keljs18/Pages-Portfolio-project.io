@@ -61,22 +61,24 @@ main {
 }
 
 .bio {
-    display: flex;
+    display: inline;
     align-items: center;
     margin-top: 10px;
     user-select: none;
 }
 
 .bio img {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 450px;
     border-radius: 25%;
     margin-right: 20px;
+    margin-top: 0;
     user-select: none;
 }
 
 .social-links a {
     display: inline-block;
+    margin-top: -10px;
     margin-right: 10px;
     text-decoration: none;
     color: #1d7120;
